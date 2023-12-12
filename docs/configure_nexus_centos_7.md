@@ -157,7 +157,7 @@ sudo tee -a /opt/sonarqube/conf/sonar.properties<<EOF
 ##Database details
 sonar.jdbc.username=sonarqube
 sonar.jdbc.password=Sonar@123
-sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
+sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube?
 
 ##How you will access SonarQube Web UI
 sonar.web.host=0.0.0.0
