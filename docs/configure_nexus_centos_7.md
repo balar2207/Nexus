@@ -156,7 +156,7 @@ echo "transport.tcp.port: 9300" | sudo tee -a /opt/sonarqube/elasticsearch/confi
 sudo tee -a /opt/sonarqube/conf/sonar.properties<<EOF
 ##Database details
 sonar.jdbc.username=sonarqube
-sonar.jdbc.password=StrongPassword
+sonar.jdbc.password=Sonar@123
 sonar.jdbc.url=jdbc:postgresql://localhost/sonarqube
 
 ##How you will access SonarQube Web UI
